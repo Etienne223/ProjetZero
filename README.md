@@ -30,3 +30,7 @@ I'm at home learning thanks to BeCode. I'm a new learner to become a Junior Web 
 ## Prototype
 
 Status : Gathering ideas.
+
+![TrashPanda](https://media.giphy.com/media/vzkSu4oe620Tu/giphy.gif)
+
+Here's a gif of a trashpanda (I'm sorry I do like them very much, animal lover here)
