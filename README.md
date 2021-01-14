@@ -6,8 +6,7 @@ Etienne Lefèvre @Etienne223
 
 ## Projet
 
-This project and this repo si about creating a brand new website from scratch and using HTML, CSS and a bit of JavaScript. This will be perfect in order to memorize and maintain my skills in coding while learning new things _@BeCode_.
-Il me permet de m'entrainer et me permettra aussi de suivre mon évolution personnel durant la formation.
+This project and this repo si about creating a brand new website from scratch and using HTML, CSS and a bit of JavaScript. This will be perfect in order to memorize and maintain my skills in coding while learning new things _@BeCode_. This will help me to keep a "trace" of my evolution from a caveman to Charles Xavier.
 
 I'm using VS Code to edit my text but I promise that I'll get use to VIM (this is a promise to myself. I've add some addons to help through the process of creation :
 
