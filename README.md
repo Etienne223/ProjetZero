@@ -2,7 +2,7 @@
 
 ## Membre
 
-l'heure actuelle : Etienne Lefèvre @Etienne223
+Etienne Lefèvre @Etienne223
 
 ## Projet
 
