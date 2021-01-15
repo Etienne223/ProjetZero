@@ -1,10 +1,10 @@
-# READ ME
+# PROJECT ZERO - READ ME
 
-## Member
+### Member
 
 Etienne Lefèvre @Etienne223
 
-## Projet
+### Projet
 
 This project and this repo si about creating a brand new website from scratch and using HTML, CSS and a bit of JavaScript. This will be perfect in order to memorize and maintain my skills in coding while learning new things _@BeCode_. This will help me to keep a "trace" of my evolution from a caveman to Charles Xavier.
 
@@ -19,15 +19,15 @@ I'm using VS Code to edit my text but I promise that I'll get use to VIM (this i
 - Prettier - Code Formatter
 - Sass
 
-## Deadline
+### Deadline
 
 There is actually no deadline because it's all about working, learning, fixing, discovering new topics, things, way to achieve my coding's goal. It will help me to memorize and exercices. This README is written on _January the 14th of 2021_.
 
-## Employment?
+### Employment?
 
 I'm at home learning thanks to BeCode. I'm a new learner to become a Junior Web Developer. This is for sure something that will change my life.
 
-## Prototype
+### Prototype
 
 Status : Gathering ideas.
 
