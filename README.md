@@ -4,24 +4,24 @@
 
 Etienne Lefèvre @Etienne223
 
-### Projet
+### Project
 
-This project and this repo si about creating a brand new website from scratch and using HTML, CSS and a bit of JavaScript. This will be perfect in order to memorize and maintain my skills in coding while learning new things _@BeCode_. This will help me to keep a "trace" of my evolution from a caveman to Charles Xavier.
+This project and this repo si about creating a brand new website from scratch and using HTML, CSS. This will be perfect in order to memorize and maintain my skills in coding while learning new things _@BeCode_. This will help me to keep a "trace" of my evolution from a caveman to Charles Xavier. This is also the project I'll present in order the get badges.
 
-I'm using VS Code to edit my text but I promise that I'll get use to VIM (this is a promise to myself. I've add some addons to help through the process of creation :
+I'm using the Terminal and Git to manage my work and to edit my files I'm using VS Code. I've add some addons to help through the process of creation :
 
 - Auto Rename Tag
 - Community Material Theme
 - Css Peek
 - Live Sass Compiler
-- Live Server (the most usefull atm)
+- Live Server
 - Material Icon Theme
 - Prettier - Code Formatter
 - Sass
 
 ### Deadline
 
-There is actually no deadline because it's all about working, learning, fixing, discovering new topics, things, way to achieve my coding's goal. It will help me to memorize and exercices. This README is written on _January the 14th of 2021_.
+There is actually no deadline because it's all about working, learning, fixing, discovering new topics, things, way to achieve my coding's goal. It will help me to memorize and exercices.
 
 ### Employment?
 
