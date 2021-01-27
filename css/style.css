@@ -1,0 +1,222 @@
+/*===============  
+    Typography
+============== */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+/* =========
+    Global
+========== */
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    height: 100vh;
+    display: grid;
+}
+
+header {
+    display: grid;
+    background-color: gray;
+}
+
+section {
+    margin: 10px 0 0 0;
+}
+
+article {
+    margin: 10px 0 0 0;
+
+}
+
+footer {
+    margin: 0 0 10px 0;
+}
+
+.pair {
+    background-color: lightskyblue;
+}
+
+.impair {
+    background-color: lightyellow;
+}
+
+img {
+    width: 50%;
+}
+
+/* ================
+    Mobile layout
+================= */
+
+@media only screen and (max-width: 350px) {
+
+    /* Header */
+
+    header {
+        grid-template-columns: 40px 1fr 1fr 40px;
+        grid-template-rows: 70% 30%;
+    }
+
+    #logo {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+        width: 50%;
+        justify-self: center;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header h1 {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+        margin-top: 5%;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    #quote {
+        display: none;
+    }
+
+    #burger {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+        color: white;
+        font-size: 25px;
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+
+    /* Main */
+
+    main {
+        text-align: center;
+    }
+
+    main section img {
+        align-self: center;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+}
+
+/*  Footer */
+
+footer {
+    text-align: center;
+}
+
+/* ================
+    Tablet Layout
+================= */
+
+@media only screen and (max-width: 480px) {
+
+    /* Header */
+
+    header {
+        grid-template-columns: 40px 1fr 1fr 40px;
+        grid-template-rows: 70% 30%;
+    }
+
+    #logo {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+        width: 50%;
+        justify-self: center;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header h1 {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+        margin-top: 5%;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    #quote {
+        display: none;
+    }
+
+    #burger {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+        color: white;
+        font-size: 25px;
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+
+    /* Main */
+
+    main {
+        text-align: center;
+    }
+
+    main section img {
+        align-self: center;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+}
+
+/*  Footer */
+
+footer {
+    text-align: center;
+}
+
+/* ================
+    Tablet Layout
+================== */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    /* ==============================
+    Header - Logo - Nav - Hero 
+=============================== */
+
+    /*header {
+    display: grid;
+    background-color: lightcoral;
+}
+
+#logo {
+    width: 25%;
+}
+
+#navbar {
+    text-align: center;
+}
+
+#navbar li {
+    margin: 10px 0 10px 0;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+} */
