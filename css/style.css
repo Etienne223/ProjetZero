@@ -38,7 +38,12 @@ article {
 }
 
 footer {
+    display: grid;
     margin: 0 0 10px 0;
+}
+
+footer li {
+    list-style-type: none;
 }
 
 .pair {
@@ -49,8 +54,20 @@ footer {
     background-color: lightyellow;
 }
 
-img {
-    width: 50%;
+nav ul {
+    list-style-type: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px 0 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
 }
 
 /* ================
@@ -113,13 +130,14 @@ img {
         object-fit: cover;
     }
 
+    /*  Footer */
+
+    footer {
+        text-align: center;
+    }
+
 }
 
-/*  Footer */
-
-footer {
-    text-align: center;
-}
 
 /* ================
     Tablet Layout
@@ -137,7 +155,7 @@ footer {
     #logo {
         grid-column: 2 / 4;
         grid-row: 1 / 2;
-        width: 50%;
+        width: 40%;
         justify-self: center;
     }
 
@@ -149,7 +167,7 @@ footer {
         grid-column: 2 / 4;
         grid-row: 2 / 3;
         margin-top: 5%;
-        font-size: 20px;
+        font-size: 1em;
         color: white;
         text-align: center;
     }
@@ -181,13 +199,14 @@ footer {
         object-fit: cover;
     }
 
+    /*  Footer */
+
+    footer {
+        text-align: center;
+    }
 }
 
-/*  Footer */
 
-footer {
-    text-align: center;
-}
 
 /* ================
     Tablet Layout
@@ -195,28 +214,69 @@ footer {
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
-    /* ==============================
-    Header - Logo - Nav - Hero 
-=============================== */
+    /* Header */
 
-    /*header {
-    display: grid;
-    background-color: lightcoral;
+    header {
+        grid-template-columns: 40px 1fr 1fr 40px;
+        grid-template-rows: 70% 30%;
+    }
+
+    #logo {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        width: 40%;
+        justify-self: start;
+        margin-left: 15px;
+    }
+
+    nav {
+        grid-column: 2 / 4;
+        grid-row: 1 /2;
+        justify-self: end;
+    }
+
+    header h1 {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 2em;
+        color: white;
+        text-align: center;
+    }
+
+    #quote {
+        display: none;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    /* Main */
+
+    main {
+        text-align: center;
+    }
+
+    main section img {
+        align-self: center;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    /*  Footer */
+
+    footer {
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-rows: 90% 10%;
+        text-align: center;
+    }
+
+    #social {
+        grid-column: 2/ 3;
+        grid-row: 2 / 3;
+    }
 }
-
-#logo {
-    width: 25%;
-}
-
-#navbar {
-    text-align: center;
-}
-
-#navbar li {
-    margin: 10px 0 10px 0;
-}
-
-#navbar a {
-    text-decoration: none;
-    color: white;
-} */
