@@ -59,6 +59,7 @@ section {
 
 footer {
     display: grid;
+    text-align: center;
 }
 
 footer li {
@@ -68,7 +69,8 @@ footer li {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
     justify-self: center;
     text-align: center;
 }
@@ -89,6 +91,10 @@ p {
     width: 150px;
     height: 150px;
 }
+
+/* =============
+    Responsive
+============== */
 
 /* Phone layout */
 
