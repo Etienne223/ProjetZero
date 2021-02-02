@@ -3,31 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie/edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <link rel="icon" href="#">
     <link rel="stylesheet" href="css/style2.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Meet Your Raccoon</title>
 </head>
 <body>
+
+    <!-- Nav bar and hero container -->
     <header>
-        <img id="logo" src="assets/images/raccoon_logo.png" alt="Meet your Raccoon logo">
-        <i id="burger" class="fa fa-bars"></i>
-        <nav id="navbar">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Classic Raccoon</a></li>
-                <li><a href="">Exotic Raccoon</a></li>
-                <li><a href="">Q&A</a></li>
-            </ul>
-        </nav>
-        <h1>Meet your Raccoon</h1>
-            <quote>
-                «  Meet Your Raccoon is the easy way to connect wild animal and human » 
-            </quote>
-            <h2 id="soc">- Socrate</h2>
-            <!--<img id="raccoon" src="assets/images/cartoon_raccoon.png" alt="Hello Raccoon">-->
+        <figure>
+            <img id="logo" src="assets/images/raccoon_logo.png" alt="Meet your Raccoon logo">
+            <figcaption>Nice Raccoon logo</figcaption>
+        </figure>
+            
+            <i id="burger" class="fa fa-bars"></i>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#logo">Home</a></li>
+                    <li><a href="#choose">Classic Raccoon</a></li>
+                    <li><a href="#all_racc">Exotic Raccoon</a></li>
+                    <li><a href="#sitemap">Q&A</a></li>
+                </ul>
+            </nav>
+            <h1>Meet your Raccoon</h1>
+                <!--<img id="raccoon" src="assets/images/cartoon_raccoon.png" alt="Hello Raccoon">-->
     </header>
+
+    <!-- Main section  -->
+
     <main>
     <section id="choose"> 
         <h2>How to choose your Raccoon ?</h2>
@@ -47,28 +52,43 @@
      
     <section id="all_racc">
         <h2>Here is a selection of our best raccoons</h2>
-        <article id="misty" >
+        <article id="misty" class="impair" >
             <h3>Misty</h3>
-            <img src="assets/images/misty_raccoon.jpg" alt="Misty the raccoon">
+            <figure>
+                <img src="assets/images/misty_raccoon.jpg" alt="Misty the raccoon">
+                <figcaption>Misty the raccoon.</figcaption>
+            </figure>
                 <p>Misty is some kind of crazy raccoon, she doesn't like to get pet and love to be in the nature. She only like to live in the wild and would be sad if she's living captive. You don't want to adopt her.</p>
         </article>
-        <article id="rocky" class="selection pair">
+        <article id="rocky" class="pair">
             <h3>Rocky</h3>
-            <img src="assets/images/rocky_raccoon.jpg" alt="Rocky the raccoon">
+            <figure>
+                <img src="assets/images/rocky_raccoon.jpg" alt="Rocky the raccoon">
+                <figcaption>Rocky the raccoon.</figcaption>
+            </figure>
                 <p>Rocky is some kind of crazy raccoon, she doesn't like to get pet and love to be in the nature. She only like to live in the wild and would be sad if she's living captive. You don't want to adopt her.</p>
         </article>
-        <article id="greedy" class="selection impair">
+        <article id="greedy" class="impair">
             <h3>Greedy</h3>
-            <img src="assets/images/greedy_raccoon.jpeg" alt="Greedy the raccoon">
+            <figure>
+                <img src="assets/images/greedy_raccoon.jpeg" alt="Greedy the raccoon">
+                <figcaption>Greedy the raccoon.</figcaption>
+            </figure>
                 <p>Greedy is some kind of crazy raccoon, she doesn't like to get pet and love to be in the nature. She only like to live in the wild and would be sad if she's living captive. You don't want to adopt her.</p>
         </article>
-        <article id="Toaddy" class="selection pair">
+        <article id="Toaddy" class="pair">
             <h3>Toaddy</h3>
-            <img src="assets/images/toaddy_raccoon.jpg" alt="Toaddy the raccoon">
+            <figure>
+                <img src="assets/images/toaddy_raccoon.jpg" alt="Toaddy the raccoon">
+                <figcaption>Toaddy the raccoon.</figcaption>
+            </figure>
                 <p>Misty is some kind of crazy raccoon, she doesn't like to get pet and love to be in the nature. She only like to live in the wild and would be sad if she's living captive. You don't want to adopt her.</p>
         </article>
     </section>
     </main>
+
+    <!-- Footer -->
+
     <footer>
         <section id="sitemap">
             <h2>Sitemap</h2>
@@ -93,13 +113,13 @@
             <ul>
                 <li>More informations</li>
                 <li>Less informations</li>
-                <i class="fa fa-facebook-square"></i>
-                <i class="fa fa-twitter-square"></i>
-                <i class="fa fa-github-square"></i>
             </ul>
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-github-square"></i>
         </section>
         <section id="social">
-           <p> © All rights reserved to the animal protection.</p>
+           <h3> © All rights reserved to the animal protection.</h3>
         </section>
     </footer>
 </body>

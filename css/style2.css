@@ -21,13 +21,31 @@ body {
     grid-template-rows: auto 1fr auto;
     gap: 20px;
     font-family: 'Ubuntu', sans-serif;
+}
 
+figcaption {
+    display: none;
+}
+
+#navbar {
+    justify-self: end;
+}
+
+#navbar li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
 }
 
 header {
     display: grid;
-    background-color: #C3DDA1;
     color: white;
+    background-color: #C3DDA1;
 }
 
 main {
@@ -98,7 +116,7 @@ p {
 
 /* Phone layout */
 
-@media only screen and (min-width: 300px) and (max-width: 480px) {
+@media only screen and (min-width: 300px) and (max-width: 649px) {
 
     header {
         grid-template-columns: 50px 1fr 1fr 50px;
@@ -126,21 +144,25 @@ p {
 
     nav,
     quote,
-    h2 {
+    #soc {
         display: none;
     }
 }
 
 /* Tablet layout */
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 650px) {
 
     header {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto 1fr 1fr;
+    }
+
+    #navbar {
+        grid-column: 2 / 4;
     }
 
     h1 {
-        grid-column: 1 / 3;
+        grid-column: 1 / 4;
     }
 
     #burger,
@@ -168,9 +190,19 @@ p {
 @media only screen and (min-width: 767px) {
 
     header {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 100px 1fr 1fr 1fr 1fr 100px;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         height: 100vh;
+    }
+
+    #logo {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    #navbar {
+        grid-column: 2 / 6;
+        grid-row: 1 / 2;
     }
 
     #all_racc {
@@ -208,4 +240,18 @@ p {
         grid-column: 1/ 5;
     }
 
+}
+
+/* =================
+    Decorative code
+================= */
+
+/* Navigation Bar */
+
+#logo {
+    align-self: center;
+}
+
+#navbar {
+    align-self: center;
 }
